@@ -1,4 +1,5 @@
 @import-normalize;
+@import url("https://use.typekit.net/pmn6qeh.css");
 
 
 * {
@@ -9,6 +10,10 @@
 
 body {
     font-size: calc(.24vw + 1rem) !important;
+    font-family:  abril-fatface, serif;
+    font-style: normal;
+    font-weight: 400;
+    
 }
 
 .logo img {

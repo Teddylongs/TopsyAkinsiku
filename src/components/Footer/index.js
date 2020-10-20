@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../images/logo-large.png"
+import logo from "../../images/logo-white.png"
 import {
   IoLogoInstagram as IGLogo
 } from "react-icons/io"
@@ -26,13 +26,13 @@ const Footer = () => {
           </FooterContent>
           <FooterSocial>
             <a href="https://instagram.com/topsyakinsiku">
-              <IGLogo color="white" size={10} style={{'margin-right': '2px'}}/>
+              <IGLogo color="white" size={35} style={{'margin-right': '1rem'}}/>
             </a>
             <a href="https://twitter.com/topsyakinsiku">
-              <TWLogo color="white" size={10} style={{'margin-right': '1px'}}/>
+              <TWLogo color="white" size={35} style={{'margin-right': '0.8rem'}}/>
             </a>
             <a href="https://facebook.com/topsyakinsiku">
-              <FBLogo color="white" size={9} />
+              <FBLogo color="white" size={30} />
             </a>
           </FooterSocial>
         </FooterContainer>

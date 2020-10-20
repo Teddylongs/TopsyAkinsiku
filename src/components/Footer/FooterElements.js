@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export const FooterWrapper = styled.footer`
   background: #ab9776;
   width: 100%;
-  height: 80px;
+  height: fit-content;
   display: flex;
   align-items: center;
 `
@@ -14,6 +14,11 @@ export const FooterContainer = styled.div`
   width: 100%;
   margin: auto;
   align-items: center;
+  padding: 3rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const FooterLogo = styled(Link)`
@@ -32,5 +37,6 @@ export const FooterContent = styled.div`
     min-width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
 `
