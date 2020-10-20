@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaBars} from 'react-icons/fa'
+import {BsPlus} from 'react-icons/bs'
 import {Nav, NavbarContainer, NavLogo, NavMenu, Hamburger, NavItem, NavLinks} from './NavbarElements'
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
                     Topsy Akinisku
                 </NavLogo>
                 <Hamburger>
-                    <FaBars />
+                    <BsPlus />
                 </Hamburger>
                 <NavMenu>
                     <NavItem>
