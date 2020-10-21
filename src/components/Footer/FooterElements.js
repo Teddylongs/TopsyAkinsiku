@@ -7,6 +7,7 @@ export const FooterWrapper = styled.footer`
   height: fit-content;
   display: flex;
   align-items: center;
+  color: white;
 `
 
 export const FooterContainer = styled.div`
@@ -14,6 +15,7 @@ export const FooterContainer = styled.div`
   width: 100%;
   margin: auto;
   align-items: center;
+  justify-content: space-around;
   padding: 3rem;
 
   @media (max-width: 768px) {
@@ -29,8 +31,11 @@ export const FooterSocial = styled.div`
   min-width: 25%;
   display: flex;
   justify-content: center;
-  color: white;
   justify-self: flex-end;
+  
+  @media (max-width: 768px) {
+    margin-top: 1rem;
+  }
 `
 
 export const FooterContent = styled.div`
@@ -38,5 +43,22 @@ export const FooterContent = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-self: center;
     justify-content: flex-start;
+
+    a {
+      text-decoration: underline;
+      transition: all 0.2 linear;
+    }
+
+    a:hover {
+      color: #D3D3D3
+    }
+
+    p, a {
+      font-size: 0.9rem;
+    }
+
+
+
 `

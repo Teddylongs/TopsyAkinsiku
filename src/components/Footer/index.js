@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from 'gatsby'
 import logo from "../../images/logo-white.png"
 import {
   IoLogoInstagram as IGLogo
@@ -23,6 +24,11 @@ const Footer = () => {
           </FooterLogo>
           <FooterContent>
           <CTA>Contact Us</CTA>
+          <div style={{'display': 'flex'}}>
+          <Link>Privacy Policy</Link>
+          <p style={{'margin': '0 0.2rem 0 0.2rem', 'font-weight' : '800'}}> | </p>
+          <Link>Terms and Conditions</Link>
+          </div>
           </FooterContent>
           <FooterSocial>
             <a href="https://instagram.com/topsyakinsiku">

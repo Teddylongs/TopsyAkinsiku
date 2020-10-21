@@ -11,7 +11,8 @@ export const CTA = styled.button`
     transition: all ease 0.4s;
     letter-spacing: .05em;
     margin: 2rem 0 3rem 0;
-    font-weight: 800;
+    font-family:  abril-fatface, serif;
+    
 
     &:hover {
         background: white;
