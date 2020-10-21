@@ -25,9 +25,9 @@ const Footer = () => {
           <FooterContent>
           <CTA>Contact Us</CTA>
           <div style={{'display': 'flex'}}>
-          <Link>Privacy Policy</Link>
+          <Link to='/'>Privacy Policy</Link>
           <p style={{'margin': '0 0.2rem 0 0.2rem', 'font-weight' : '800'}}> | </p>
-          <Link>Terms and Conditions</Link>
+          <Link  to='/'>Terms and Conditions</Link>
           </div>
           </FooterContent>
           <FooterSocial>

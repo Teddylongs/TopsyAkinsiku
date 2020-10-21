@@ -48,6 +48,7 @@ export const FooterContent = styled.div`
 
     a {
       text-decoration: underline;
+      color: inherit;
       transition: all 0.2 linear;
     }
 
