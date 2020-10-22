@@ -22,10 +22,10 @@ body {
 }
 
 h3 {
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1rem + 0.8vw);
     font-weight: 400;
     letter-spacing: 0.05rem;
-    margin-bottom: calc(1rem + 2vw);
+    margin-bottom: calc(1rem + 1vw); 
 }
 
 .logo img {
@@ -46,6 +46,20 @@ h3 {
     margin-left: 5%;
 }
 
+
+#join-inner-circle {
+    background: url("../images/bkg1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#join-inner-circle img {
+    margin: 2rem auto auto auto;
+    display: block;
+    width: 500px;
+    max-width: 100%;
+}
 /*
 #meet-tope .content-left {
     justify-self: flex-start;

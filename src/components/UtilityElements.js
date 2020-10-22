@@ -7,12 +7,18 @@ export const Spacer = styled.div`
 
 export const Container = styled.section`
     width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
     padding: calc(0.05 * 100vw);
 `
 
 export const Content = styled.div`
     width: 100%;
+    flex-direction: ${props => props.direction ? props.direction : 'row'};
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media (max-width: 768px){
         flex-direction: column;

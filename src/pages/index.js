@@ -12,6 +12,7 @@ import {
 import meetTopeImg from "../images/meet-tope-image.png"
 import scribble from "../images/scribble.png"
 import meetTopeTxt from "../images/meet-tope-text.png"
+import joinICT from "../images/join-ict.png"
 import { Spacer } from "../components/UtilityElements"
 import { CTA } from "../components/ButtonElements"
 
@@ -39,21 +40,27 @@ const IndexPage = () => (
             <Spacer size="calc(2vh)" />
             <div style={{ textAlign: "left" }}>
               <img src={scribble} alt="" style={{ width: "100%" }} />
-              <Spacer size="calc(5vh)" />
+              <Spacer size="5vh" />
               <article>
                 <h3>I’m a Jesus girl with a passion</h3>
                 <h3>I’m married to my best friend</h3>
                 <h3>I’m the co-pastor to a congregation of champions</h3>
-                <h3>But there’s more… </h3>
+                <em><h3>But there’s more… </h3></em>
               </article>
-            </div>
-            <Spacer size="calc(2vh)" />
-            <CTA style={{ display: "block", margin: "auto" }} color="#4b4b4b">
+              <Spacer size="0.05vw" />
+            <CTA className='cta' style={{ display: "block" }} color="#4b4b4b">
               Learn More
             </CTA>
+            </div>
           </ContentRight>
         </Content>
       </Container>
+        <Container id="join-inner-circle" style={{padding: '2% 0'}}>
+            <Content direction ='column'>
+                <img src={joinICT} alt='' />
+                <CTA color='black'>Subscribe</CTA>
+            </Content>
+        </Container>
     </Layout>
   </>
 )
