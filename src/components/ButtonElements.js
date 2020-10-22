@@ -1,9 +1,9 @@
 import styled from 'styled-components/macro'
 
 export const CTA = styled.button`
-    border: 2px solid white;
+    border: 2px solid ${props => props.color};
     background: transparent;
-    color: white;
+    color:  ${props => props.color};
     transition: all ease 1s;
     font-size: calc(.24vw + 1rem);
     padding: 1rem 1.5rem;
@@ -15,7 +15,7 @@ export const CTA = styled.button`
     
 
     &:hover {
-        background: white;
-        color: black;
+        background:  ${props => props.color};
+        color: ${props => props.color !== 'white' ? 'white': 'black'};
     }
 `

@@ -23,7 +23,7 @@ const Footer = () => {
             <img src={logo} />
           </FooterLogo>
           <FooterContent>
-          <CTA>Contact Us</CTA>
+          <CTA color='white'>Contact Us</CTA>
           <div style={{'display': 'flex'}}>
           <Link to='/'>Privacy Policy</Link>
           <p style={{'margin': '0 0.2rem 0 0.2rem', 'font-weight' : '800'}}> | </p>
