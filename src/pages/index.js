@@ -45,22 +45,24 @@ const IndexPage = () => (
                 <h3>I’m a Jesus girl with a passion</h3>
                 <h3>I’m married to my best friend</h3>
                 <h3>I’m the co-pastor to a congregation of champions</h3>
-                <em><h3>But there’s more… </h3></em>
+                <em>
+                  <h3>But there’s more… </h3>
+                </em>
               </article>
               <Spacer size="0.05vw" />
-            <CTA className='cta' style={{ display: "block" }} color="#4b4b4b">
-              Learn More
-            </CTA>
+              <CTA className="cta" style={{ display: "block" }} color="#4b4b4b">
+                Learn More
+              </CTA>
             </div>
           </ContentRight>
         </Content>
       </Container>
-        <Container id="join-inner-circle" style={{padding: '2% 0'}}>
-            <Content direction ='column'>
-                <img src={joinICT} alt='' />
-                <CTA color='black'>Subscribe</CTA>
-            </Content>
-        </Container>
+      <Container id="join-inner-circle" style={{ padding: "3% 0" }}>
+        <Content direction="column">
+          <img src={joinICT} alt="" />
+          <CTA color="black">Subscribe</CTA>
+        </Content>
+      </Container>
     </Layout>
   </>
 )
