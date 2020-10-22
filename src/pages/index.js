@@ -36,10 +36,10 @@ const IndexPage = () => (
               alt=""
               style={{ "max-width": "100%" }}
             />
-            <Spacer size="25px" />
+            <Spacer size="calc(2vh)" />
             <div style={{ textAlign: "left" }}>
               <img src={scribble} alt="" style={{ width: "100%" }} />
-              <Spacer size="50px" />
+              <Spacer size="calc(5vh)" />
               <article>
                 <h3>I’m a Jesus girl with a passion</h3>
                 <h3>I’m married to my best friend</h3>
@@ -47,6 +47,7 @@ const IndexPage = () => (
                 <h3>But there’s more… </h3>
               </article>
             </div>
+            <Spacer size="calc(2vh)" />
             <CTA style={{ display: "block", margin: "auto" }} color="#4b4b4b">
               Learn More
             </CTA>
