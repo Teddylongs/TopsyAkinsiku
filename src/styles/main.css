@@ -1,19 +1,31 @@
 @import-normalize;
 @import url("https://use.typekit.net/pmn6qeh.css");
 
+@font-face{
+    font-family:"abril-display-black";
+    src:url("https://dafonttop.com/wp-data/a/966/8966/file/Abril_Display_Black.otf") format("woff"),
+    url("https://dafonttop.com/wp-data/a/966/8966/file/Abril_Display_Black.otf") format("opentype"),
+    url("https://dafonttop.com/wp-data/a/966/8966/file/Abril_Display_Black.otf") format("truetype");
+}
 
-* {
+
+*, html{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-size: 18px;
+    font-family:  abril-fatface, serif;
 }
 
 body {
-    font-size: calc(.24vw + 1rem) !important;
-    font-family:  abril-fatface, serif;
-    font-style: normal;
-    font-weight: 400;
     
+}
+
+h3 {
+    font-size: calc(1rem + 0.8vw);
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    margin-bottom: calc(1rem + 2vw);
 }
 
 .logo img {
@@ -24,14 +36,20 @@ body {
 }
 
 #meet-tope {
-    display: flex;
-    background: #F7DF75;
-    padding: 3rem;
+    background: url("../images/meet-background.jpg"); 
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+    color: white;
 }
 
+#meet-tope .content-right {
+    margin-left: 5%;
+}
+
+/*
 #meet-tope .content-left {
     justify-self: flex-start;
-    min-width: 55%;
+    min-width: 60%;
 }
 
 #meet-tope .content-left img{
@@ -40,8 +58,19 @@ body {
 }
 
 #meet-tope .content-right {
+    font-family: 'abril-display-black';
+    color: white;
     justify-self: flex-end;
-    min-width: 45%;
-    text-align: center;
+    min-width: 40%;
+    text-align: left;
+    padding-left: 10%;
+    margin: auto 0;
 }
 
+#meet-tope .content-right article {
+    font-weight: normal;
+}
+
+#meet-tope .content-right h3 {
+}
+ */
