@@ -1,14 +1,21 @@
 import React, { Component } from 'react'
+import styled from 'styled-components/macro'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
+const LayoutWrapper = styled.div`
+
+
+`
+
 export default class Layout extends Component {
     render() {
+        
         return (
-            <div>
+            <LayoutWrapper>
                 {this.props.children}
                 <Footer />
-            </div>
+            </LayoutWrapper>
         )
     }
 }

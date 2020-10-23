@@ -7,6 +7,8 @@ import {
   Content,
   ContentLeft,
   ContentRight,
+  Jumbotron,
+  JumbotronTitle,
 } from "../components/UtilityElements"
 
 import meetTopeImg from "../images/meet-tope-image.png"
@@ -15,10 +17,15 @@ import meetTopeTxt from "../images/meet-tope-text.png"
 import joinICT from "../images/join-ict.png"
 import { Spacer } from "../components/UtilityElements"
 import { CTA } from "../components/ButtonElements"
+import Hero from "../components/Hero"
 
 const IndexPage = () => (
   <>
     <Layout>
+        <Jumbotron>
+            <JumbotronTitle>It's time to<br/>Live life to the...<br/>Fullest Max Top Fullest Max</JumbotronTitle>
+        </Jumbotron>
+        <Hero/>
       <Container id="meet-tope">
         <Content>
           <ContentLeft grow="1" width="60%">
