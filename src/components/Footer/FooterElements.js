@@ -47,14 +47,14 @@ export const FooterContent = styled.div`
     justify-content: flex-start;
 
     a {
-      text-decoration: underline;
+      /* text-decoration: underline; */
       color: inherit;
       transition: all 0.2 linear;
     }
 
-    a:hover {
+    /* a:hover {
       color: #D3D3D3
-    }
+    } */
 
     p, a {
       font-size: 0.9rem;

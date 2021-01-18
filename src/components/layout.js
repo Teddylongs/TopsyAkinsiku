@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const LayoutWrapper = styled.div`
 
-
+margin: auto;
 `
 
 export default class Layout extends Component {

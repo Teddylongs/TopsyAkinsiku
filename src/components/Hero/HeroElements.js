@@ -1,4 +1,5 @@
 import styled from "styled-components/macro"
+import heroBkg from '../../images/hero-bkg.gif'
 
 export const HeroWrapper = styled.div`
   position: relative;
@@ -7,12 +8,11 @@ export const HeroWrapper = styled.div`
 `
 
 export const HeroBkg = styled.div`
-  display: block;
-  /* position: absolute; */
-  /* z-index: -10; */
-  /* & img {
-    width: 100%;
-  } */
+  background: url(${heroBkg});
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 53%;
 `
 
 export const HeroContent = styled.div`

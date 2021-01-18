@@ -1,6 +1,7 @@
 import styled from 'styled-components/macro'
 
-export const CTA = styled.button`
+export const CTA = styled.a`
+    max-width: fit-content;
     display: block;
     border: 2px solid ${props => props.color};
     background: transparent;

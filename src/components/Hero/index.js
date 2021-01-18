@@ -7,7 +7,6 @@ const Hero = () => {
   return (
     <HeroWrapper>
       <HeroBkg>
-        <img src={HeaderBkg} alt="hero image" />
       </HeroBkg>
       <HeroContent className="subhero-bkg">
         <HeroText>

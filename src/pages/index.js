@@ -19,6 +19,8 @@ import { Spacer } from "../components/UtilityElements"
 import { CTA } from "../components/ButtonElements"
 import Hero from "../components/Hero"
 
+
+
 const IndexPage = () => (
   <>
     <Layout>
